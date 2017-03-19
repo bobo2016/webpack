@@ -1,14 +1,23 @@
 
 import React, { Component } from "react";
-//import Header from '../../components/Header'
-//import Footer from '../../components/Footer'
+
+
+import List from "../../components/List/List"
 
 import "./index.css";
+
 export default class App extends Component{
+
+
 	render(){
+
 		return (
-      <div className="app">
-      </div>
-		);
+				<div id="container">
+					<ul>
+						<List/>
+					</ul>
+					<button>Add</button>
+				</div>
+		)
 	}
 }
